@@ -2,3 +2,7 @@ apiVersion: v2
 description: A Helm chart for Kubernetes
 name: helm-example
 version: 0.1.0
+dependencies:
+  - name: redis
+    version: 12.7.x
+    repository: https://charts.bitnami.com/bitnami
